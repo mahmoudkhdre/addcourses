@@ -5,7 +5,80 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #E14647;
 }
+*{
+  box-sizing: border-box;
+}
+h2{
+  background: #E14647;
+  padding: 18px;
+  color: #fff;
+}
+.App{
+  padding: 30px;
+  background: #fff;
+  width: 80%;
+  margin: 50px auto;
+  box-shadow: 1px 2px 5px #eee;
+}
+
+input{
+  width:80%;
+  border: 0;
+  padding: 6px 10px;
+  background: #e8e8e8e;
+
+}
+button{
+  width:20%;
+  border: 0;
+  padding: 6px 0;
+  outline: 0;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  background: #4dc55d;
+ 
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+li{
+  margin: 15px 0;
+}
+li span{
+  display: inline-block;
+  width:60%;
+  color: 6a6a6a;
+}
+li button:first-of-type {
+  background:#6a6a6a;
+  color: #fff;
+  margin-right: 1%;
+  width: 19%
+
+}
+li button:last-of-type{
+  background: #d9534f;
+  color: #fff;
+}
+ul form {
+  margin: 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
